@@ -56,9 +56,12 @@ body{
     padding-bottom: 5px;/*espaço para a borda do :hover aparecer*/
     transition: color 0.3s;
     border-bottom-color: 0,3s; /*animação suave*/
+ 
 }
     /*A pseudo classe "hover" aplica estilos quando o mouse esa em cima do elemento. é essencial para dar feedback ao usuario*/
-
+.active{
+    background-color: #87e252;
+}
 
 
 .main-nav a:hover {
